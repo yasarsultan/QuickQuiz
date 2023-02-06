@@ -1,0 +1,115 @@
+:root {
+    background-color: white;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(215, 246, 255);
+    ;
+}
+
+.main {
+    height: 100vh;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.ques {
+    font-size: 5rem;
+    margin: 3rem;
+    margin-bottom: 1rem;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+}
+
+.option>p:first-child {
+    height: 6rem;
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    background-color: rgb(0, 0, 139);
+    margin: 0.5rem;
+    margin-right: 0;
+    color: white;
+    font-weight: 800;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.option>p:nth-child(2) {
+    height: 6rem;
+    padding: 1.6rem 1rem;
+    font-size: 1.8rem;
+    width: 100%;
+    margin: 0.5rem;
+    background-color: white;
+    margin-left: 0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.option:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 139, 0.5);
+    transform: translateY(-0.2rem);
+    transition: 200ms;
+}
+
+#submit {
+    background-color: white;
+    color: black;
+    width: 10rem;
+    height: 5rem;
+    font-size: 2rem;
+    margin: 2rem;
+    margin-left: 50%;
+    border-radius: 2rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 139, 0.5);
+    transform: translateY(-0.3rem);
+    transition: 200ms
+}
+
+#topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 6rem;
+}
+
+#number {
+    text-align: center;
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+#questionno {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#score {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#update {
+    text-align: center;
+    font-size: 4rem;
+    padding: 0;
+    margin: 0
+}

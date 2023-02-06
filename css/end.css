@@ -1,0 +1,45 @@
+:root{
+    background-color: white;
+    font-size:62.5%;
+    
+}
+#main{
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: center;
+  
+}
+
+form{
+display: flex;
+flex-direction: column;
+visibility:inherit;
+
+}
+input{
+width: 20rem;z
+margin-bottom: 2rem;
+height: 4rem;
+font-size: 2rem;
+border: none;
+box-shadow:0 0.1rem 1.4rem 0 rgb(12, 154, 194);
+padding: 2rem;
+}
+input::placeholder{
+color:#aaa;
+}
+.link{
+background-color:white;
+color: rgb(16, 169, 211);
+border:2px solid rgba(16, 169, 211,0.6);
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.link:disabled{
+transition: none;
+transform:none;
+box-shadow: none;
+}
